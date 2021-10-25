@@ -136,3 +136,5 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 TIME_ZONE = 'America/New_York'
+
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
